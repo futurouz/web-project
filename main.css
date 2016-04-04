@@ -7,6 +7,7 @@ body {
 	margin:0;
 	font-family: ColabThi;
 }
+/*--------------- MENU ----------------- */
 .menu {
 	background-color: #334;
 	position: fixed;
@@ -34,13 +35,13 @@ body {
 	right: 5%;
 	font-size: 20px;
 }
+/*---------BG--------------*/
 .bg {
 	background-image: url(images/4.jpg);
 	position: fixed;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
-
 }
 .bg h1 {
 	position: absolute;
@@ -55,16 +56,6 @@ body {
 	top: 70%;
 	color: white;
 }
-.bg a {
-	font-size: 17px;
-	color: white;
-	text-decoration: none;
-	border: 1px solid white;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 70px;
-	padding-right: 70px;
-}
 .bg h2 {
 	position: absolute;
 	text-align: center;
@@ -76,8 +67,16 @@ body {
 	color: white;	
 	border-bottom: 2px solid white;
 	line-height: 100px;
-
-
+}
+.bg a {
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
 }
 .bg a:hover {
 	transition-delay: 0.2;
