@@ -35,7 +35,7 @@ body {
 	font-size: 20px;
 }
 .bg {
-	background-image: url(images/6.jpg);
+	background-image: url(images/4.jpg);
 	position: fixed;
 	background-size: cover;
 	height: 100%;
@@ -53,6 +53,7 @@ body {
 	text-align: center;
 	position: relative;
 	top: 70%;
+	color: white;
 }
 .bg a {
 	font-size: 17px;
