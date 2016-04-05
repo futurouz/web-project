@@ -14,10 +14,14 @@ $(document).ready(function(){
 
 
     $('.fixed-nav-bar h2').click(function(){
-        $('.content ').animate({left: "-350px"},250);
+        $('.menu').animate({right: "0px"},250);
         $('.fixed-nav-bar').animate({left: "-350px"},250);
+        $('.allpic').animate({left: "-350px"},250);
     });
-    $('.content h2').click(function(){
-        $('.content').animate({left: "0px"},250);
+    $('.menu h2').click(function(){
+        $('.menu').animate({right: "-350px"},250);
+        $('.fixed-nav-bar').animate({left: "0px"},250);
+        $('.allpic').animate({left: "0px"},250);
     });
+
 });

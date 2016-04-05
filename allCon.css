@@ -13,41 +13,36 @@ body {
   left: 0;
   z-index: 9999;
   width: 100%;
-  height: 50px;
-  background-color: #00a087;
+  height: 60px;
+  background-color: white;
 }
-.fixed-nav-bar h2 {
-	position: fixed;
-	color: white;
-	top: 1%;
-	right: 5%;
-	font-size: 37px;
-	margin:0;
-	padding:0;
-} 
 .fixed-nav-bar h1 {
-	position: fixed;
-	color: white;
-	top: 1%;
-	left: 2%;
-	font-size: 30px;
+	font-weight: lighter;
+	position: absolute;
+	left: 5%;
+}
+
+.fixed-nav-bar h2 {
+	position: absolute;
+	font-weight: lighter;
+	margin: 0;
+	top: 30%;
+	right: 4%;
+	font-size: 35px;
+}
+.menu {
 	margin:0;
-	padding:0;
-} 
-.menu2 {
-	margin:0;
-	background-color: #334;
+	background-color: #2f2e2e;
 	position: fixed;
 	height: 100%;
 	width: 350px;		
-	right: 0px;
-	z-index: -1;
+	right: -350px;
 }
-.menu2 a {
+.menu a {
 	color: white;
 	text-decoration: none;
 }
-.menu2 ul {
+.menu ul {
 	list-style-type: none;
 	line-height: 70px;
 	font-size: 28px;
@@ -55,53 +50,43 @@ body {
 	text-indent: 7%;
 	top:20%;
 }
-.menu2 h2 {
-	position: fixed;
+.menu h2 {
 	color: white;
-	top: 1%;
-	right: 5%;
-	font-size: 20px;
+	position: absolute;
+	top: 2%;
+	right: 15%;
 }
-.content {
-	background-color: white;
-	position: fixed;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-}
-#img1 {
+.allpic {    
 	position: relative;
-	top: 9%;
-	left: 1%;
-	width: 500px;
-	height: 300px;
+	width: 1240px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    
 }
-#img2 {
-	position: relative;
-	width: 600px;
-	height: 400px;
-	top: 9%;
-	left: 38.5%;
+.box1 {
+	float: left;
+    height: 240px;
+    width: 370px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    overflow: hidden;
 }
-#img3 {
-	position: relative;
-	width: 500px;
-	height: 3S00px;
-	top: 40%;	
-	left: 10%;
+.box1 img {
+	max-width:100%;
+	max-height:100%;
 }
-#img1:hover {
-	background-color: black;
-	transition-duration: 0.5s;
-	opacity: 0.4;
-}
-#img2:hover {
-	background-color: black;
-	transition-duration: 0.5s;
-	opacity: 0.4;
-}
-#img3:hover {
-	background-color: black;
-	transition-duration: 0.5s;
+.box1 :hover {
+	transition-duration: 0.3s;
 	opacity: 0.7;
+	max-width:100%;
+	max-height:100%;
 }
+.box1 p {
+	opacity: 1;
+	font-size: 50px;
+	z-index: 10;
+}
+
+
