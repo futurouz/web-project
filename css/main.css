@@ -1,0 +1,85 @@
+@font-face {
+    font-family: ColabThi;
+    src: url(../font/ColabThi.otf);
+}
+
+body {
+	margin:0;
+	font-family: ColabThi;
+}
+/*--------------- MENU ----------------- */
+.menu {
+	background-color: #334;
+	position: fixed;
+	height: 100%;
+	width: 350px;		
+	right: 0px;
+	z-index: -1;
+}
+.menu a {
+	color: white;
+	text-decoration: none;
+}
+.menu ul {
+	list-style-type: none;
+	line-height: 70px;
+	font-size: 28px;
+	position: relative;
+	text-indent: 7%;
+	top:20%;
+}
+.menu h2 {
+	position: fixed;
+	color: white;
+	top: 7%;
+	right: 5%;
+	font-size: 20px;
+}
+/*---------BG--------------*/
+.bg {
+	background-image: url(../images/4.jpg);
+	position: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+.bg h1 {
+	position: absolute;
+	color: white;
+	top: 4%;
+	right: 5%;
+	font-size: 37px;
+}
+.bg p {
+	text-align: center;
+	position: relative;
+	top: 70%;
+	color: white;
+}
+.bg h2 {
+	position: absolute;
+	text-align: center;
+	top: 30%;
+	left: 30%;
+	font-size: 14em;
+	margin: 0;
+	font-weight: lighter;
+	color: white;	
+	border-bottom: 2px solid white;
+	line-height: 100px;
+}
+.bg a {
+	font-size: 17px;
+	color: white;
+	text-decoration: none;
+	border: 1px solid white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+.bg a:hover {
+	transition-duration: 0.5s;
+	background-color: white;
+	color:black;
+}
