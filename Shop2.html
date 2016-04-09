@@ -2,25 +2,22 @@
 <html>
 <head>
 	<title></title>
-	<link rel="stylesheet" type="text/css" href="css/allCon.css">
+	<link rel="stylesheet" type="text/css" href="css/allCon2.css">
 </head>
 <body>
-	<!--NAV-->
-	<nav class="fixed-nav-bar">
-		<h1>about<span style="font-weight: bold;">EAT</span></h1>
-		<h2>=</h2>
-	</nav>
-
 	<!--MENU-->
-	<div class="menu">
-		<h2> X </h2>
-			<ul>
-				<li><a href="#">ABOUT US</a></li>
-				<li><a href="#">CONTACT</a></li>
-			</ul>
-	</div>
+ 	<div class="menu" id="mem">
+ 		<p onclick="Hide()">X</p>
+ 		<a href="#">ABOUT</a> <br>
+ 		<a href="#">CONTACT</a>
+ 	</div>
+	<!--NAV-->
+	<nav class="fixed-nav-bar" id="nav" >
+		<h1>about<span style="font-weight: bold;">EAT</span></h1>
+		<h2 onclick="Show()">=</h2>
+	</nav>
 	<!--CONTENT-->
-	<div class="allpic">
+	<div class="allpic" id="load">
 
 		<div class="box1">
 			<a href="p1.html">
@@ -34,8 +31,8 @@
 			</a>
 		</div>
 		<div class="box1">
-			<a href="p2.html">
-				<img src="images/9.jpg">
+			<a href="p3.html">
+				<img src="images/10.jpg">
 			</a>
 		</div> 
 		<div class="box1">
@@ -50,12 +47,12 @@
 		</div> 
 		<div class="box1">
 			<a href="#">
-				<img src="images/8.jpg">
+				<img src="images/3.jpg">
 			</a>
 		</div> 
 		<div class="box1">
 			<a href="#">
-				<img src="images/10.jpg">
+				<img src="images/7.jpg">
 			</a>
 		</div> 
 		<div class="box1">
@@ -67,10 +64,9 @@
 
 
 
-	<!--SCRIPT-->	
-	<script src="js/jquery.min.js"></script>
-	<script src="js/app.js"></script>
 
 
+
+	<script src="js/app2.js"></script>
 </body>
 </html>

@@ -1,6 +1,6 @@
 @font-face {
     font-family: ColabThi;
-    src: url(../font/ColabThi.otf);
+    src: url(../font/ThaiSansNeue-UltraLight.otf);
 }
 
 body {
@@ -42,6 +42,7 @@ body {
 	background-size: cover;
 	height: 100%;
 	width: 100%;
+	transition: all 0.5s;
 }
 .bg h1 {
 	position: absolute;
