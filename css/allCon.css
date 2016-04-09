@@ -17,6 +17,12 @@ body {
   height: 60px;
   background-color: white;
 }
+.fixed-nav-bar a:link {
+	color: black;
+}
+.fixed-nav-bar a:visited {
+	color: black;
+}
 .fixed-nav-bar h1 {
 	font-weight: lighter;
 	position: absolute;
@@ -101,7 +107,22 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-
+}
+.cover2 {
+	height: 768px;
+	width: 100%; 
+	background-image:url(../images/2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.cover2 {
+	height: 768px;
+	width: 100%; 
+	background-image:url(../images/9.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
 .page {
 	width: 100%;
@@ -149,4 +170,42 @@ body {
 	float: left;
 	left: 10%;
 }
+.boxLast {
+	position: relative;
+	text-align: center;
+	height: 450px;
+	width: 740px;
+	margin-bottom: 30px;
+	clear: both;
+	float: left;
+	left: 10%;
+	margin-bottom: 100px;
+}
 
+.bn {
+	position: relative;
+	text-align: center;
+	height: auto;
+	width: 740px;
+	margin-bottom: 30px;
+	left: 10%;
+}
+.bn a {
+	position: relative;
+	font-size: 30px;
+	text-decoration: none;
+	border:0px solid black;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: black;
+}
+.bn a:hover {
+	color: white;
+	background-color: #4b4a4a;
+	border:0px solid #4b4a4a;
+	transition-duration: 0.3s;
+}
+
+.d {
+	position: relative;
+}
