@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+		<!--MENU-->
+ 	<div class="menu" id="mem">
+ 		<p onclick="Hide()">X</p>
+ 		<a href="#">ABOUT</a> <br>
+ 		<a href="#">CONTACT</a>
+ 	</div>
+	<!--NAV-->?
+	<nav class="fixed-nav-bar" id="nav" >
+		<h1>about<span style="font-weight: bold;">EAT</span></h1>
+		<h2 onclick="Show()">=</h2>
+	</nav>
+	
+	<div class="inner-heading">
+		<h1><span class="orange">C</span>ONTAC<span class="brown">T</span></h1>		
+		<p>ขอบคุณสำหรับการเข้าชมเว็บไซต์ของเรา โปรดกรอกแบบฟอร์มข้างล่าง เพื่อรับข่าวสารจากพวกเรา</p>
+	</div>
+
+	<!--CONTACT-->
+	<div class="contact-form">
+		<form name="myForm" action="demo_form.asp" onsubmit="return validateForm()" method="post">
+			<input class="input" type="text" name="ID" placeholder="ID" id="form" onclick="color()" required>
+  			<input class="input" type="text" name="name" placeholder="NAME" id="form2" onclick="color2()" required>
+  			<input class="input" type="text" name="mail" placeholder="EMAIL" id="form3" onclick="color3()"required>
+			<br>
+			<textarea class="area" name="message"  placeholder="TELL SOMETHING" id="form4" onclick="color4()" ></textarea>
+ 			<br>
+
+  			<button id="submit_btn">SEND MESSAGE</button>
+		</form>
+	</div>
+
+	<script src="js/app3.js"></script>
+</body>
+</html>
