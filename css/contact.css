@@ -30,6 +30,7 @@ body {
 	left: 5%;
 	margin-top: 10px;
 	font-size: 35px;
+	letter-spacing: 5px;
 }
 
 .fixed-nav-bar h2 {
@@ -65,27 +66,36 @@ body {
 	color: white;
 	font-size: 70px;
 	text-decoration: none;
+
+}
+#close {
+	position: relative;
+	color:white;
+	font-size: 25px;
+	left: 45.5%;
+	text-decoration: none;
 }
 /*topic*/
 .inner-heading {
 	text-align: left;
-	margin-top: 110px;
+	padding-top: 110px;
 }
 .inner-heading h1 {
 	display: block;
 	text-transform: uppercase;
 	font-size: 150px;
-	font-weight: 400;
+	font-weight: bolder;
 	color: #4B4549;
 	letter-spacing: 11px;
 	line-height: 120px;
-	margin-bottom: 0px;	
+	margin: 0;
 	padding-left: 2ex;
 	padding-bottom: 0;
+	position: relative;
 }
 .inner-heading p {
 	max-width: 750px;
-	font-size: 4ex;
+	font-size: 5.5ex;
 	text-align: left;
 	margin: 0;
 	padding-left: 5em;
@@ -153,4 +163,11 @@ body {
 	font-size: 20px;
 	background-color: #E74C3C;
 	color: white;
+}
+.orange {
+	color: #58A8E0;
+}
+#d {
+	opacity: 0;
+	transition: all 0.5s;
 }

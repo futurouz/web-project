@@ -67,6 +67,13 @@ body {
 	font-size: 70px;
 	text-decoration: none;
 }
+#close {
+	position: relative;
+	color:white;
+	font-size: 25px;
+	left: 45.5%;
+	text-decoration: none;
+}
 /*topic*/
 .inner-heading {
 	text-align: left;
@@ -93,11 +100,18 @@ body {
 }
 .inner-heading2 {
 	margin:0;
-	background-color: #EFEFEF;
-	padding-top: 50px;
+	background-image: url('../images/12.jpg');
+	background-attachment: fixed;
+	background-position:right left;
+	padding-top: 500px;
+}
+.inner-heading3 {
+	margin:0;
+	background-color: #f0f0f0;
+	padding-top: 100px;
 	padding-bottom: 150px;
 }
-.inner-heading2 h1 {
+.inner-heading3 h1 {
 	text-transform: uppercase;
 	font-size: 170px;
 	font-weight: 400;
@@ -112,16 +126,20 @@ body {
 	left: 40%;
 	position: absolute;
 }
-.inner-heading2 table {
+.inner-heading3 table {
 	position: relative;
 	top: 100px;
 	left: 47%;
 	margin-top: 30px;
 }
-.inner-heading2 td{
+.inner-heading3 td{
 	font-size: 5.5ex;
 	padding-left: 30px;
 }
 .orange {
 	color:  #FF4444;
+}
+#d {
+	opacity: 0;
+	transition: all 0.5s;
 }

@@ -5,19 +5,26 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
- <!-- MENU -->
-	<div class="menu">
-	<h2 onclick="Hide()"> X </h2>
-		<ul>
-			<li><a href="#">ABOUT US</a></li>
-			<li><a href="#">CONTACT</a></li>
-		</ul>
-	</div>
+<!--MENU-->
+ 	<div class="menu" id="mem">
+ 		<p onclick="Hide()" id="close">X</p>
+ 		<a href="about.html">ABOUT</a> <br>
+ 		<a href="contact.html">CONTACT</a>
+ 	</div>
 <!--BG & BUTTON -->
 	<div class="bg" id="background">
-		<h1 onclick="Show()">=</h1>
-		<h2><span style="font-size: 100px; ">About</span>EAT</h2>
-		<p><a href="Shop2.html">ENTER SITE</a></p>
+		<div class="open">
+			<p onclick="Show()">=</p>
+		</div>
+
+		<div class="head">
+			<h2 id="abouteat">AboutEAT</h2>
+		</div>
+
+		<div class="bn">
+			<p id="bt"><a href="Shop2.html">ENTER SITE</a></p>
+		</div>
+
 	</div>
 
 <!--SCRIPT-->	

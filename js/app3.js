@@ -1,3 +1,8 @@
+window.onload = function(){
+	setTimeout(function(){
+		document.getElementById("d").style.opacity = 1;
+	},500);
+}
 function color() {
 	document.getElementById('form').style.backgroundColor = "#F2784B";
 	document.getElementById('form2').style.backgroundColor = "#e7e7e7";
