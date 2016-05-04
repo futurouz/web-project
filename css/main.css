@@ -12,6 +12,7 @@ body {
 	position: fixed;
 	width: 100%;
 	height: 100%;
+	background: 50%;
 	background-color: #222;
 	opacity: 0.95;
 	z-index: 10000;
@@ -25,6 +26,7 @@ body {
 	color: white;
 	font-size: 25px;
 	text-decoration: none;
+	cursor:pointer;
 }
 .menu a {
 	position: relative;
@@ -41,6 +43,53 @@ body {
 	left: 45.5%;
 	text-decoration: none;
 }
+/*-----Login---------------*/
+.login {
+	position: absolute;
+	left: 28%;
+	top: 10%;
+    background-color: #f4f4f4;
+    width: 600px;
+    height: 500px;
+    padding: 5px;
+    text-align: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s;
+    border-radius: 2%;
+    z-index: 1000;
+}
+.login p {
+	font-size: 30px;
+	margin: 0px;
+	padding-right: 15px;
+	text-align: right;
+	cursor: pointer;
+}
+.login h2 {
+	text-align: center;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 0;
+    margin-bottom: 20px
+}
+.login input {
+	position: relative;
+	padding:10px;
+	margin-bottom: 10px;
+
+}
+
+#submit {
+	color: white;
+	margin-top: 20px;
+	background-color: #3a3a3a;
+	border-radius: 10%;
+}
+#checkbox {
+	font-weight: bold;
+	font-size: 3em;
+}
 /*---------BG--------------*/
 .bg {
 	background-image: url(../images/13.jpg);
@@ -51,6 +100,7 @@ body {
     min-height: 400px;
     background-position: center center;
     transition: all 0.4s;
+
 }
 .open {
 	position: relative;
@@ -60,7 +110,8 @@ body {
 	font-size: 80px;
 	margin:0;
 	font-weight: 500;
-	color: black
+	color: black;
+	cursor: pointer;
 }
 .head {
 	position: relative;
@@ -77,8 +128,12 @@ body {
 	opacity: 0;
 	transition: all 1s;
 }
+.setBtn {
+	position: relative;
+	left: 28%;
+}
 .bn {
-	text-align: center;
+	float: left;
 }
 .bn p {
 	opacity: 0;
@@ -89,7 +144,7 @@ body {
 	text-decoration: none;
 	letter-spacing: 2px;
 	color: white;
-	border: 1px solid white;
+	border: 1.5px solid white;
 	padding:0 50px 0 50px;
 }
 .bn a:hover {
