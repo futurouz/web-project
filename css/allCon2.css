@@ -57,16 +57,24 @@ body {
     height: 240px;
     width: 370px;
     margin-left: 25px;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
+    margin-top: 0px;
     overflow: hidden;
 }
 .box1 img {
 	max-width:100%;
 	max-height:100%;
 }
+.text {
+	position:relative;
+	bottom:30px;
+	left:0px;
+	visibility:hidden;
+}
 .box1 :hover {
-	transition-duration: 0.3s;
-	opacity: 0.7;
+	transition-duration: 300ms;  
+	opacity: 0.8;
+	margin-top: -10px;
 	max-width:100%;
 	max-height:100%;
 }
@@ -108,12 +116,16 @@ body {
 	font-size: 25px;
 	left: 45.5%;
 	text-decoration: none;
+	cursor:pointer;
+}
+#open {
+	cursor: pointer;
 }
 /*IN PAGE*/
 .cover {
 	height: 768px;
 	width: 100%; 
-	background-image:url(../images/1.jpg);
+	background-image:url(../images/24.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -121,7 +133,7 @@ body {
 .cover2 {
 	height: 768px;
 	width: 100%; 
-	background-image:url(../images/2.jpg);
+	background-image:url(../images/23.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -129,11 +141,36 @@ body {
 .cover3 {
 	height: 768px;
 	width: 100%; 
-	background-image:url(../images/10.jpg);
+	background-image:url(../images/18.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 }
+.cover4 {
+	height: 768px;
+	width: 100%; 
+	background-image:url(../images/4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.cover5 {
+	height: 768px;
+	width: 100%; 
+	background-image:url(../images/27.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.cover6 {
+	height: 768px;
+	width: 100%; 
+	background-image:url(../images/31.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
 .page {
 	width: 100%;
 	background-color: white;
@@ -172,6 +209,10 @@ body {
     bottom: 0;
     left: 22%;
     border-bottom: 1px solid #313131;
+}
+.detail p {
+	text-indent: 2em;
+	text-align: justify;
 }
 .info .detail {
 	text-align: center;
@@ -228,3 +269,4 @@ body {
 	opacity: 0;
 	transition: all 1s;
 }
+ 

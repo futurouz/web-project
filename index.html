@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>AboutEat</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -11,38 +11,56 @@
  		<a href="about.html">ABOUT</a> <br>
  		<a href="contact.html">CONTACT</a>
  	</div>
+	<!--Fade-->
+	<div class="fade" id="fade"></div>
+ 	<!--REGISTER-->
+	<div class="regis" id="reg">	
+		<form>
+			<p id="closeReg" onclick="closeReg()">x</p>
+			<br><br>
+			<h2>REGISTER</h2>
+			<input type="text" name="name" placeholder="Name" required><br>
+			<input type="date" name="date" id="dateReg" placeholder="BirthDay" required><br>
+			<input type="number" name="phone" pattern="[0-9]{10}" placeholder="Phone number" required><br>
+			<input type="password" name="pass" placeholder="Password" required><br>
+			<input type="checkbox" id="checkbox" onchange="document.getElementById('regSub').disabled = !this.checked;" name="remember"><spane id="checkboxSpane">I agree to the AboutEat Terms of Service and Privacy Policy</spane><br><br>
+			<input type="submit" id="regSub" name="Submit" value="REGISTER" disabled></input> 
+		</form>
+	</div>
+
  	<!--LOGIN-->
  	<div class="login" id="login">
 		<form>
 			<p id="closeLogin" onclick="closelogin()">x</p>
 			<br><br><br><br>
 			<h2>Sign In</h2>
-			<input type="text" name="username" placeholder="Username"></input><br>
-			<input type="password" name="password" placeholder="Password"></input><br>
+			<input type="text" name="username" placeholder="Username" required></input><br>
+			<input type="password" name="password" placeholder="Password" required></input><br>
 			<input type="submit" id="submit" name="Submit" value="Login"></input> 
-			<input type="checkbox" id="checkbox"name="remember">Remember me?</form>
-
+			<input type="checkbox" id="checkbox" name="remember"><spane id="checkboxSpane">Remember me?</spane></form>
 		</form>
  	</div>
 	<!--BG & BUTTON -->
   <div class="bg" id="background">
+
+		<div class="btnChange">
+			<span id="up" onclick="showReg()">SIGN UP</span>
+			<span id="in" onclick="showlogin()">SIGN IN</span>
+		</div>	
+
+	<!-- OPEN-->
 		<div class="open">
 			<p onclick="Show()">=</p>
 		</div>
 
+	<!-- TOPICE-->
 		<div class="head">
 			<h2 id="abouteat">AboutEAT</h2>
 		</div>
-
+	<!---BTN-->
 	<div class="setBtn">
 		<div class="bn">
 			<p id="bt"><a href="Shop2.html">ENTER SITE</a></p>
-		</div>
-		<div class="bn">
-			<p id="bt2"><a href="#">SIGN UP</a></p>
-		</div>
-		<div class="bn">
-			<p id="bt3" onclick="showlogin()"><a href="#">SIGN IN</a></p>
 		</div>
 	</div>
 

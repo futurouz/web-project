@@ -96,13 +96,14 @@ body {
 	max-width: 750px;
 	font-size: 5.5ex;
 	margin: 0;
+	padding-top: 2em;
 	padding-left: 3.5em;
 }
 .inner-heading2 {
 	margin:0;
-	background-image: url('../images/12.jpg');
+	background-image: url('../images/33.jpg');
 	background-attachment: fixed;
-	background-position:right left;
+	background-position:center ;
 	padding-top: 500px;
 }
 .inner-heading3 {
@@ -130,6 +131,7 @@ body {
 	position: relative;
 	top: 100px;
 	left: 47%;
+	padding-top: 2em;
 	margin-top: 30px;
 }
 .inner-heading3 td{
@@ -142,4 +144,7 @@ body {
 #d {
 	opacity: 0;
 	transition: all 0.5s;
+}
+#open,#close {
+	cursor: pointer;
 }
